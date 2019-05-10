@@ -15,7 +15,7 @@ class StringProcessor(object):
     for both input and output.
     """
 
-    regex = re.compile(r"(?ui)\W")
+    regex = re.compile(r"\W")
 
     @classmethod
     def replace_non_letters_non_numbers_with_whitespace(cls, a_string):
